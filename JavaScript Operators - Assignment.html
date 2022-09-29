@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js operator</title>
+    <style>
+        *{ 
+            margin: 0;
+            padding: 0;
+            box-sizing: 0;
+        }
+
+        .operator{
+            background-color: aquamarine;
+            text-align: center;
+            padding: 30px;
+        }
+    </style>
+</head>
+<body style="background-color:grey;">
+    <div class="operator">
+    <h1>OPERATOR</h1><br>
+    <h2>Arithmetic Operation</h2>
+    <br>
+    <h3>No of weeks in a year</h3>
+    <br>
+    <script>
+        //arithmetic operation using(%,/)
+        var x = 365;
+        var y = 7;
+        var rem = x%y;
+        var quotient = (x-rem)/y;
+        document.write(quotient);//weeks in a year
+        document.write("<b> weeks and "+ rem +" Day is there in a year. </b>");
+        document.write("<br>");
+        document.write("<br>");
+
+        //Usage of + operator to concat the strings
+        document.write("<b>String Concatenation Operator</b>");
+        document.write("<br>");
+        var string1 = "hello";
+        var string2 = "Students ";
+        var string = string1+" "+string2;
+        string += " Good";
+        document.write(string +" "+"Moring");
+
+    </script>
+    </div>
+</body>
+</html>
